@@ -1,15 +1,15 @@
-Name:           quic-teec
-Version:        1.0.1
-Release:        1%{?dist}
-Summary:        Qualcomm qcomtee userspace library
+Name:		quic-teec
+Version:	1.0.1
+Release:	1%{?dist}
+Summary:	Qualcomm qcomtee userspace library
 
-License:        BSD-3-Clause
-URL:            https://github.com/quic/quic-teec
-Source0:        https://github.com/quic/quic-teec/archive/refs/tags/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
+License:	BSD-3-Clause
+URL:		https://github.com/quic/quic-teec
+Source0:	https://github.com/quic/quic-teec/archive/refs/tags/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 
-BuildRequires:  gcc
-BuildRequires:  cmake
-BuildRequires:  qcbor-devel
+BuildRequires:	gcc
+BuildRequires:	cmake
+BuildRequires:	qcbor-devel
 
 %description
 QCOM-TEE (libqcomtee) is a user-space C library that enables applications to
@@ -38,7 +38,6 @@ Development files needed to build and link to the libqcomtee library.
 
 %install
 %cmake_install
-
 
 %files
 %license LICENSE.txt
