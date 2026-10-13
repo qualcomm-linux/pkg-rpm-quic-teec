@@ -6,6 +6,7 @@ Summary:	Qualcomm qcomtee userspace library
 License:	BSD-3-Clause
 URL:		https://github.com/quic/quic-teec
 Source0:	https://github.com/quic/quic-teec/archive/refs/tags/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
+Patch0:		set-library-version.patch
 
 BuildRequires:	gcc
 BuildRequires:	cmake
@@ -28,7 +29,8 @@ Development files needed to build and link to the libqcomtee library.
 
 
 %prep
-%autosetup
+%setup
+%patch -P0 -p1
 
 
 %build
