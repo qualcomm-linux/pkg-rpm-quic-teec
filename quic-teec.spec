@@ -9,7 +9,7 @@ Source0:	https://github.com/quic/quic-teec/archive/refs/tags/v%{version}.tar.gz#
 
 BuildRequires:	gcc
 BuildRequires:	cmake
-BuildRequires:	qcbor-devel
+BuildRequires:	pkgconfig(qcbor)
 
 %description
 QCOM-TEE (libqcomtee) is a user-space C library that enables applications to
