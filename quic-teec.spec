@@ -1,6 +1,6 @@
 Name:		quic-teec
 Version:	1.0.1
-Release:	1%{?dist}
+Release:	1.qli%{?dist}
 Summary:	Qualcomm qcomtee userspace library
 
 License:	BSD-3-Clause
