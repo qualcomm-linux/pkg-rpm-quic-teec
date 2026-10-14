@@ -53,5 +53,5 @@ Development files needed to build and link to the libqcomtee library.
 
 
 %changelog
-* Wed Sep 02 2026 Abhinaba Rakshit <abhinaba.rakshit@oss.qualcomm.com> - 1.0.1-1
-- Initial RPM package with upstream v1.0.1
+* Wed Oct 14 2026 Abhinaba Rakshit <abhinaba.rakshit@oss.qualcomm.com> - 1.0.1-1.qli
+- Initial RPM packaging with upstream v1.0.1
